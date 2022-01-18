@@ -2,7 +2,7 @@ import os
 import sys
 from pathlib import Path
 
-from notebook_testing import notebook_run
+from .notebook_testing import notebook_run
 
 sys.path.append(os.path.join(os.path.dirname(__file__), "..", "examples"))
 
